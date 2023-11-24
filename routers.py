@@ -23,6 +23,6 @@ urlpatterns = [
     path('redoc', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 
     # API
-    path('library/', include('src.library.urls')),
+    path('book/', include('src.library.urls')),
     path('user/', include('src.user.urls')),
 ]
