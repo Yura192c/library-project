@@ -24,4 +24,5 @@ urlpatterns = [
 
     # API
     path('library/', include('src.library.urls')),
+    path('user/', include('src.user.urls')),
 ]
